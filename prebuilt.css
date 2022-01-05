@@ -1,0 +1,247 @@
+* {
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+.background {
+    /* overflow-x: hidden; */
+    background-image: url('p6.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+body {
+    /* overflow-x: hidden; */
+    background-image: url('p6.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.blur {
+    background-color: rgba(0, 0, 0, 0.2);
+    width: 100%;
+    height: auto;
+    padding: 5rem;
+}
+
+header {
+    /* min-height: 15vh;
+    max-height: 15vh; */
+    height: 11.5rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    font-size: 2rem;
+
+    background-color: rgba(0, 0, 0, 0.85);
+
+    position: sticky;
+    top: 0%;
+}
+
+.logo-div {
+    width: 25%;
+    margin: auto;
+}
+
+.logo {
+    text-align: center;
+}
+
+nav {
+    width: 75%;
+    display: flex;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+    width: 90%;
+    margin: auto;
+    justify-content: right;
+}
+
+nav ul li {
+    list-style: none;
+    text-align: center;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 3.5rem 5rem 5rem 5rem;
+    text-align: center;
+}
+
+.login {
+    display: block;
+    margin: auto;
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a:hover {
+    border-top: 5px solid white;
+    background-color: rgba(255, 238, 238, 0.1);
+    color: white;
+}
+
+
+.login:hover {
+    border-bottom: 5px solid white;
+    color: white;
+}
+
+.logolink:hover {
+    cursor: pointer;
+}
+
+.logolink {
+    text-decoration: none;
+    color: white;
+}
+
+
+.products-wrapper {
+    width: 100%;
+    margin: auto;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 5rem;
+
+    text-align: center;
+    color: white;
+}
+
+.products-container {
+    padding: 2rem 0;
+    width: 95%;
+    margin: auto;
+}
+
+.products-container div {
+    padding: 5rem 0;
+    width: 48%;
+    height: auto;
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.title {
+    font-weight: bold;
+    font-size: 3rem;
+    color: white;
+    padding: 2rem 0;
+}
+/* 
+.products-container div img {
+    height: auto;
+    width: 30rem;
+    display: block;
+    margin: auto;
+} */
+
+.products-container div img {
+    width: 20rem;
+    display: block;
+}
+
+.products-container h2 {
+    display: block;
+    font-size: 2rem;
+}
+
+.products-container p {
+    display: block;
+    font-size: 1.5rem;
+}
+
+.product1 {
+    margin: 0 0 1rem 0;
+}
+
+.product1 img {
+    /* height: auto;
+    padding: 5.5rem 0;
+    width: 34rem;
+    display: block;
+    margin: auto; */
+    height: auto;
+    width: 21rem;
+    display: block;
+    margin: auto;
+}
+
+.product2 img {
+    height: auto;
+    width: 21rem;
+    display: block;
+    margin: auto;
+}
+
+.product3 img {
+    /* padding: 5.5rem 0;
+    height: auto;
+    width: 30rem;
+    display: block;
+    margin: auto; */
+    height: auto;
+    width: 21rem;
+    display: block;
+    margin: auto;
+}
+
+.product4 img {
+    /* height: auto;
+    width: 30rem;
+    display: block;
+    margin: auto;
+    padding: 5.9rem 0 0 0; */
+    height: auto;
+    width: 21rem;
+    display: block;
+    margin: auto;
+}
+
+.product1 h2 {
+    padding: 5rem 0 1rem 0;
+}
+
+.product2 h2 {
+    padding: 5rem 0 1rem 0;
+}
+
+.product3 h2 {
+    padding: 5rem 0 1rem 0;
+}
+
+.product4 h2 {
+    padding: 5rem 0 1rem 0;
+}
+
+.products-container div:hover {
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    border-radius: 1rem;
+}
+
+.productlink {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+
+
+footer {
+    padding: 5rem 0;
+    text-align: center;
+    justify-content: center;
+    color: white;
+    background-color: black;
+}

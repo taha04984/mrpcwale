@@ -1,0 +1,114 @@
+@media screen and (min-width:768px) {
+* {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+}
+    
+html {
+        font-size: 62.5%;
+}
+    
+body {
+        background-color: rgb(223, 223, 223);
+}
+    
+main {
+    color: white;
+    height: 100vh;
+    width: 100%;
+}
+
+main header {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 2rem 0;
+}
+
+
+.burger div {
+    margin: 5px;
+    width: 30px;
+    height: 2px;
+    background-color: black;
+}
+
+.header {
+    display: flex;
+    width: 100%;
+    margin: auto;
+}
+
+.name {
+    font-size: 3rem;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+.bars {
+    display: none;
+}
+
+
+/* Introduction Section */
+
+.aboutcontents {
+    display: flex;
+}
+
+.about h5 {
+    display: none;
+}
+
+.about img {
+    margin: auto 5rem;
+    border-radius: 0;
+    display: inline-block;
+    width: 30rem;
+    height: 30rem;
+}
+
+.abouttext {
+    width: 50%;
+    display: block;
+    margin: auto 0;
+}
+
+/* Introduction Section Ends */
+
+/* services Section Begins */
+    .boxes {
+        width: 90%;
+        margin: 10rem auto;
+        display: flex;
+    }
+
+    .boxes div {
+        width: 30%;
+    }
+
+    .boxes div h2 {
+        font-size: 3rem;
+        margin: 1rem 0 0 0;
+    }
+
+/* SErvices Section Ends */
+
+/* Portfolio Begins */
+    
+.portfolio {
+    width: 100%;
+    height: auto;
+    background-color: rgba(140, 23, 23, 1);
+}
+
+.portfolio-text {
+    text-align: center;
+    font-size: 3rem;
+}
+
+/* Portfolio Ends */
+
+}
+
+/* burger */
